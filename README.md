@@ -14,6 +14,14 @@ This is a reference implementation of how I'd design that layer: explicit state 
 
 IdentityOps exists to make all three of those structurally harder to happen.
 
+## See it in action
+
+<img src="docs/screenshots/audit-orphaned-access.svg" alt="identityops audit orphaned-access output" width="700">
+
+<img src="docs/screenshots/consent-review.svg" alt="identityops consent review output" width="700">
+
+Both screenshots are real captured CLI output (via `rich`'s SVG export, see `scripts/generate_screenshots.py`) against the built-in demo tenant — not mockups.
+
 ## Architecture
 
 ```mermaid
