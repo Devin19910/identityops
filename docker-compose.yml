@@ -1,0 +1,7 @@
+services:
+  identityops-demo:
+    build: .
+    ports:
+      - "8000:8000"
+    # Runs entirely against the built-in synthetic demo tenant — no credentials needed.
+    # Visit http://localhost:8000/audit/orphaned-access after `docker-compose up`.
